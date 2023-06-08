@@ -39,6 +39,7 @@ body {
   background-color: #f2f2f2;
   padding: 20px;
   box-sizing: border-box;
+  display:flow-root;
 }
 .gallery {
   display: flex;
@@ -131,3 +132,12 @@ tr:nth-child(even) {
 .text-container{
   float:left
 }
+
+
+/* Media query per pantalles petites */
+@media (max-width: 768px) {
+    h1 {
+      color: red;
+      font-size: 16px;
+    }
+  }
